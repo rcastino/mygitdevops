@@ -19,7 +19,7 @@ steps:
     azureSubscription: 'Versione di valutazione gratuita(909e9301-d388-4277-947c-277b65681859)'
     scriptType: 'bash'
     scriptLocation: 'inlineScript'
-    inlineScript: 'call az --version'
+    inlineScript: 'az --version'
     
 - script: |
     npm install
